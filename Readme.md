@@ -6,7 +6,7 @@ imbeded into by next week!
 
 
 Updates -
-• New rooms
+New rooms
 
 Removed - 
 
