@@ -6,13 +6,13 @@ public class MenuLoadScript : MonoBehaviour
     public void Tutorial()
     {
         SceneManager.LoadScene("Tutorial"); // Scene "TestRoom" is loaded on Click
-        Debug.Log("Going to first level!"); // Using Debug message to acknowledge scene loaded on click.
+        Debug.Log("Going to first level!"); //Debug Log in case of error
     }
 
     public void Exit()
     {
         Application.Quit(); // On click Quits game.
-        Debug.Log("Successfully Quit Game!"); // Debug message shows if game has quit.
+        Debug.Log("Successfully Quit Game!"); //Debug Log in case of error
     }
     
 }
