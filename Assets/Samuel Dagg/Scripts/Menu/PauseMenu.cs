@@ -54,6 +54,11 @@ public class PauseMenu : MonoBehaviour
             Application.Quit(); //Un-Comment this if you wanted to make another button where you can just straight up rage quit in menu without ALT + F4'ing!
         }
         */
+        
+        public void Restart()
+        {
+            SceneManager.LoadScene("Tutorial");
+        }
     }
 
 
