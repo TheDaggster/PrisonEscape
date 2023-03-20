@@ -1,14 +1,37 @@
+#Prison Escape - 2023 Unity Project 
 
-Prison Escape V0.10
+## Prison Escape V0.5 -- Health Fixes + Healing Update
 
 Updates 
 
-- Added a Health (Heart based) System 
-- Added a Death Screen 
-- Added a Pause Menu
-- Added Scripts ("Health","Healthbar","DoorEnabler","Camera Movement").
-- Added "Bottomless pit"
-- You can take Damage by pressing F (this is to simulate the death screen)
++ Picking Up items such as Painkillers/Medkit will now heal the player (each item has a different health intake)
+
+Bug Fixes
+- Fixed Prior bug which causes the player to pause if they have died and try to restart the scene
+- Fixed Mistake on Health not giving health to the player
+- Fixed interaction and colliders not picking up health
+- Fixed Seizure inducing glitch with debug.logs causing the game to flash the Pause menu ever 0.1 seconds
+- Fixed Camera Size so you can see the "bottomless pit" from start of the game and also the doorway
+- Fixed walls being used as double jumps (could be added later?)
+- Fixed Debug.logs removing any "ReSharper disable Unity.PerformanceAnalysis" this is causing prior seizures. with them being spammed heavily due to confliction of other debug.logs. 
+
+*Not Neccessary a bug Fix but cleaned up the ReadMe file to look cleaner on GitHub UI. 
+
+Bugs 
+- Bottomless pit needs a instant death interactable or teleporter once jumped into to stop the player from forcing Pause menu restarts or ALT + F4'ing the game. 
+
+#Updates Prior to this
+
+## Prison Escape V0.25 -- Health Update
+
+Updates 
+
++ Added a Health (Heart based) System 
++ Added a Death Screen 
++ Added a Pause Menu
++ Added Scripts ("Health","Healthbar","DoorEnabler","Camera Movement").
++ Added "Bottomless pit"
++ You can take Damage by pressing F (this is to simulate the death screen)
 
 
 Fixes
@@ -38,7 +61,7 @@ Features to add :
 
 
 
-Prison Escape V0.04
+## Prison Escape V0.1
 
 Game is currently NOT upto latest build due to error with migration with git but have no fear I should have majority or all of the prison escape game
 imbeded into by next week!
