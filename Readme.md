@@ -1,4 +1,4 @@
-#Prison Escape - 2023 Unity Project 
+# Prison Escape - 2023 Unity Project 
 
 ## Prison Escape V0.5 -- Health Fixes + Healing Update
 
@@ -20,7 +20,7 @@ Bug Fixes
 Bugs 
 - Bottomless pit needs a instant death interactable or teleporter once jumped into to stop the player from forcing Pause menu restarts or ALT + F4'ing the game. 
 
-#Updates Prior to this
+# Updates Prior to this
 
 ## Prison Escape V0.25 -- Health Update
 
