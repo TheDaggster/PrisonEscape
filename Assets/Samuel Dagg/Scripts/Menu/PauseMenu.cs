@@ -31,20 +31,23 @@ namespace Samuel_Dagg.Scripts.Menu
         }
 
         
+        // ReSharper disable Unity.PerformanceAnalysis
         private void Pause()
         {
             pauseMenu.SetActive(true); // GameObject labelled "Pause Menu" is activated
             Time.timeScale = 0; // slows down game to 0 speed (this gives the effect the game is paused) 
             IsPaused = true; // IsPaused is true since we are pausing the game. 
+         
         }
 
 
-    
+        
         public void Resume()
         {
             pauseMenu.SetActive(false); //GameObject "Pause Menu" is Deactivated and gameplay is resumed
             Time.timeScale = 1; // 1 speed puts the game back to default time space. (gives effect the game has been un-paused)
             IsPaused = false; //IsPaused is false since we are resuming the game. 
+            
         }
 
         public void Return() // This void returns the user back to the main menu
